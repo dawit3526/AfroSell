@@ -1,0 +1,17 @@
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/model/Product.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/repositories/CategoryRepository.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/exceptions/ApplicationException.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/service/product/ProductServiceImpl.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/response/util/ResponseUtil.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/service/product/ProductService.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/controller/APINames.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/AfrosellPortal.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/util/Constant.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/repositories/ProductRepository.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/repositories/ProductCategoryRepository.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/model/ProductCategory.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/controller/ProductController.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/response/util/APIStatus.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/model/Category.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/response/APIResponse.java
+/Users/sysadmin/Desktop/dawit/afrosell/src/main/java/com/eri/afrosell/model/ProductCategoryId.java

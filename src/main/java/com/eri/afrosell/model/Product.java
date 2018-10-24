@@ -46,7 +46,7 @@ public class Product implements Serializable {
     private Long companyId;
 
     @Basic(optional = false)
-    @Column(name = "name")
+    @Column(name = "[name]")
     private String name;
 
     @Column(name = "browsing_name")
@@ -83,7 +83,7 @@ public class Product implements Serializable {
     private String description;
 
     @Basic(optional = false)
-    @Column(name = "rank")
+    @Column(name = "[rank]")
     private int rank;
 
     @Basic(optional = false)

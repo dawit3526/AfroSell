@@ -51,7 +51,7 @@ public class AfrosellPortal extends SpringBootServletInitializer {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Arofrosell Platform REST API Documents")
+                .title("AfroroSell Platform REST API Documents")
                 .description("Documents with Swagger 2")
                 .contact("")
                 .license("")

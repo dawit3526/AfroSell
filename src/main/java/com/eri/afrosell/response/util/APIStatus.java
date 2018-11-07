@@ -11,7 +11,9 @@ public enum APIStatus {
     ERR_UNAUTHORIZED(401, "Unauthorized or Access Token is expired"),
     ERR_PERMISSION_DENIED(402, "Access Permission denied"),
     ERR_COMPANY_ID_EMPTY(403, "Company id is requied"),
-    
+
+    ERR_COMPANY_DELETE(415, "Company delete error"),
+    ERR_COMPANY_UPDATE(403, "Company udate error"),
     // Common status
     OK(200, null),
     ERR_INTERNAL_SERVER(500, "Internal Error"),

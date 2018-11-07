@@ -19,6 +19,7 @@ import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -53,6 +54,9 @@ public class ProductController {
     @Autowired
     private ProductCatagoryServiceImpl productCatagoryService;
 
+    @Value("#{2==2}")
+    private boolean value;
+
     private static final Logger logger = LoggerFactory.getLogger(ProductController.class);
 
     @Autowired
@@ -64,7 +68,7 @@ public class ProductController {
             @RequestParam(required = false, defaultValue = Constant.DEFAULT_PAGE_NUMBER) Integer pageNumber,
             @RequestParam(required = false, defaultValue = Constant.DEFAULT_PAGE_SIZE) Integer pageSize) {
         //Integer company_Id = 1;
-        logger.info("company Id " + company_id);
+        logger.info("company Id " + company_id + "value " + value);
         Page<Product> products = productService.getByCompanyId(company_id, pageNumber, pageSize);
 
 //       statusResponse = new StatusResponse(APIStatus.OK.getCode(), products.getContent(), products.getTotalElements());

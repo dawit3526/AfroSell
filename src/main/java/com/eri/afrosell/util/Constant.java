@@ -28,7 +28,52 @@ public class Constant {
         }
     }
 
+    public static final long DEFAULT_REMEMBER_LOGIN_MILISECONDS = 1296000000; // 15 days
+    public static final long DEFAULT_SESSION_TIME_OUT = 1800000; // 30 minutes
+    public static enum USER_STATUS {
+        INACTIVE(-1),
+        PENDING(0),
+        ACTIVE(1);
 
+        private final int status;
+
+        private USER_STATUS(int status) {
+            this.status = status;
+        }
+
+        public int getStatus() {
+            return status;
+        }
+    }
+
+
+    public static enum USER_ROLE {
+        SYS_ADMIN(1, "System Admin"),
+        STORE_ADMIN(2, "Store Admin"),
+        STORE_MANAGER(3, "Store Manager"),
+        NORMAL_USER(4, "Normal User"),
+        GUEST(5, "Guest");
+
+
+        private final int roleId;
+        private final String roleName;
+
+        private USER_ROLE(int id, String name) {
+            this.roleId = id;
+            this.roleName = name;
+        }
+
+        public int getRoleId() {
+            return roleId;
+        }
+
+        public String getRoleName() {
+            return roleName;
+        }
+    }
+
+    // Custom token header
+    public static final String HEADER_TOKEN = "X-Access-Token";
     // define sort key value
     public static final int SORT_BY_PRODUCT_NAME = 1;
     public static final int SORT_BY_PRODUCT_PRICE= 2;

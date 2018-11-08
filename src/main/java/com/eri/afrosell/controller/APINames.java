@@ -16,4 +16,9 @@ public class APINames {
     public static final String PRODUCT_ATTRIBUTES = "/productattributes";
     public static final String PRODUCT_DETAILS = "/productdetails/{product_id}";
     public static final String PRODUCT_ATTRIBUTES_CREATE = "/productattributes/create";
+
+    public static final String ORDERS = VERSION + "/orders";
+    public static final String ORDERS_BY_COMPANY = "/{company_id}";
+    public static final String ORDER_DETAILS = "/orderDetails/{order_id}";
+    public static final String CHANGE_STATUS_ORDERS_BY_COMPANY = "/changeStatus/{order_id}/{status}";
 }

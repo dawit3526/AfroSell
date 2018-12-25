@@ -16,6 +16,11 @@ public class APINames {
     public static final String PRODUCT_ATTRIBUTES = "/productattributes";
     public static final String PRODUCT_DETAILS = "/productdetails/{product_id}";
     public static final String PRODUCT_ATTRIBUTES_CREATE = "/productattributes/create";
+
+    public static final String ORDERS = VERSION + "/orders";
+    public static final String ORDERS_BY_COMPANY = "/{company_id}";
+    public static final String ORDER_DETAILS = "/orderDetails/{order_id}";
+    public static final String CHANGE_STATUS_ORDERS_BY_COMPANY = "/changeStatus/{order_id}/{status}";
     //company api link
     public static final String COMPANIES_VERSION ="afrosell/v1/";
     public static final String COMPANIES = COMPANIES_VERSION + "/companies";
@@ -56,4 +61,5 @@ public class APINames {
     public static final String UPDATE_USER = "/update";
     public static final String DELETE_USER = "/delete";
     public static final String CHANGE_PASSWORD_USER = "/changePassword";
+
 }
